@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">448436173911-4vasn15n51ukc9kta5q6lo15js9p7ke6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">448436173911</string>
+    <string name="google_api_key" translatable="false">AIzaSyDfT8Q2CNaebh7oOcGIrei7FDmzt90k7II</string>
+    <string name="google_app_id" translatable="false">1:448436173911:android:a85fe030790018d9beb712</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDfT8Q2CNaebh7oOcGIrei7FDmzt90k7II</string>
+    <string name="google_storage_bucket" translatable="false">easy-park-fcb7f.appspot.com</string>
+    <string name="project_id" translatable="false">easy-park-fcb7f</string>
+</resources>
