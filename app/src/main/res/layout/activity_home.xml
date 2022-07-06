@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Car Park"
+        android:textStyle="bold"
+        android:textColor="#131112" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_A"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="A"
+                android:textColor="@color/black"
+                android:textSize="30dp"></TextView>
+            <ImageView
+                android:id="@+id/imgA"
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"></ImageView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ECDAE3"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt_B"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="B"
+                android:textColor="@color/black"
+                android:textSize="30dp"/>
+            <ImageView
+                android:id="@+id/imgB"
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_C"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="C"
+                android:textColor="@color/black"
+                android:textSize="30dp"/>
+            <ImageView
+                android:id="@+id/imgC"
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            </ImageView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ECDAE3"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt_D"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="D"
+                android:textColor="@color/black"
+                android:textSize="30dp"/>
+            <ImageView
+                android:id="@+id/imgD"
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_E"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="E"
+                android:textColor="@color/black"
+                android:textSize="30dp"/>
+            <ImageView
+                android:id="@+id/imgE"
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            </ImageView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#ECDAE3"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt_F"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="F"
+                android:textColor="@color/black"
+                android:textSize="30dp"/>
+            <ImageView
+                android:id="@+id/imgF"
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    app:itemBackground="@color/white"
+                    app:itemIconTint="#880E4F"
+                    app:itemTextColor="#880E4F"
+                    android:textSize="15dp"
+                    app:menu="@menu/menu_navigation"></com.google.android.material.bottomnavigation.BottomNavigationView>
+            </RelativeLayout>
+        </LinearLayout>
+
+</LinearLayout>
